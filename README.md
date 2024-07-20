@@ -1,5 +1,13 @@
-##Departments Script Sql
+## Setup
 
+1. Dewonload the repository.
+2. Install dependencies.
+4. Set up your database and configure connection details.
+    -migration (open Package Manager Console ) and run command 
+     1-Add-Migration InitialCreate
+     2-Update-Database
+----------------------------------------------------------------------------------------------------------------------------------
+## Departments Script Sql
 
 INSERT INTO Departments (Name, Logo, ParentDepartmentId) VALUES 
 ('Human Resources', 'hr-logo.png', NULL),
