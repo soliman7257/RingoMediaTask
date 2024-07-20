@@ -1,4 +1,6 @@
 ##Departments Script Sql
+
+
 INSERT INTO Departments (Name, Logo, ParentDepartmentId) VALUES 
 ('Human Resources', 'hr-logo.png', NULL),
 ('Engineering', 'eng-logo.png', NULL),
